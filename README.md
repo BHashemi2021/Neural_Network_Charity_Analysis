@@ -36,42 +36,54 @@ The "IS_SUCCESSFUL" is the target or dependent variable which we will use to tra
 * What variable(s) are considered to be the features for your model?
 The independent variables, all the variables except the target variable, are considered the feature variables. We may remove variables like EIN and NAME that are Identification columns and are not involved in the model.
 
-
 * What variable(s) are neither targets nor features, and should be removed from the input data?
-
-The outliers, variables with unique values an th ones that are categorized as noise. Outliers can be manged be bucketing to soe extent.
+Variables that did not classify as features or target (EIN and NAME) were removed. Moreover, variables with unique values and outliers were also taken care of (bucketing).
 
 ### Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
+* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+The number of neurons and layers, especially  hidden layers, could increase the efficiency to certain extents and beyond a certain point they would not add too much value. Accordingly, a low to moderate number of neurons were considered for the model to reduce superfluous computational processing and time (Please see below).
+
+
+
+##### At the initial stage without optimization
+
+Two hidden layers, with respectively 14 and 10 neurons, were used, . 
+
+For the 1st and 2nd layers Relu and Sigmoid activation functions were used, respectively (Figure 1)
+
+```ruby
+
+# Evaluating the model using the test data
+model_loss, model_accuracy = nn.evaluate(X_test_scaled,y_test,verbose=2)
+print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
+
+``` 
+
+#### Figure 1: Results without optimization
+
+--------------------
+![Fig-1]()
+
+---------------------
+
+
+
+#### The results upon optimization and three attempts
+Loss: 0.48012784123420715, Accuracy: 0.7636151313781738
+
+
+The model was able to reach the target value by 76% of accuracy rate after three attempts and optimization.
+
 
 
 ## Summary 
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+Initially, the model had an accuracy rate of 73% and a loss score of 55%. Upon Optimization the model's accuracy rate improved to 76% and met the target value and the loss decreased to 48%. 
 
-The model had an accuracy rate of 
+Given the low accuracy of the model, it could be for preliminary screening of the applicants. 
 
-
-
-xxxxxxxxxxxxxxxxxxxxx
-Requirement and rubrics:
-
-Links to images are working, and code is formatted and displayed correctly (2 pt).
-Analysis (24 points)
-
-The written analysis has the following:
-
-Overview of the loan prediction risk analysis:
-
-The purpose of this analysis is well defined (4 pt)
-Results:
-
-There is a bulleted list that answers all six questions (15 pt)
+On the improvement of the model, use of a *Random Forest Classifier* might be a good option to consider as there are a noticeable number of variables or features. Moreover, addition of more data is always a great help.
 
 
-Summary:
 
-There is a summary of the results (2 pt)
-There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
