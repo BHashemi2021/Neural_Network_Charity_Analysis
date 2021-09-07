@@ -63,7 +63,7 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 #### Figure 1: Results without optimization
 
 --------------------
-![Fig-1]()
+![Fig-1.png](https://github.com/BHashemi2021/Neural_Network_Charity_Analysis/blob/main/Resources/images/Fig-1.png)
 
 ---------------------
 
