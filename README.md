@@ -47,14 +47,17 @@ The CSV file we have received contains more than 34,000 organizations that have 
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-    The number of neurons and layers, especially  hidden layers, could increase the efficiency to certain extents and beyond a certain point they       would not add too much value. Accordingly, a low to moderate number of neurons were considered for the model to reduce superfluous computational processing and time (Please see below).
+    The number of neurons and layers, especially  hidden layers, could increase the efficiency to certain extents and beyond a certain point they would not add too much value. Accordingly, a low to moderate number of neurons were considered for the model to reduce superfluous computational processing and time (Please see below).
 
 
 #### ***Initial results without optimization***
 
 Two hidden layers, with respectively 14 and 10 neurons, were used. 
 
-For the 1st and 2nd hidden layers Relu and for the output layer Sigmoid activation functions were used, respectively (Figure 1)
+For the 1st and 2nd hidden layers Relu and for the output layer Sigmoid activation functions were used, respectively.
+
+The model rendered an accuracy rate of about 73% (Figure 1).
+
 
 ```ruby
 
@@ -77,7 +80,7 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 
 Two hidden layers, with respectively 20 and 15 neurons, were used. 
 
-For the 1st and 2nd hidden layers Relu and for the output layer Sigmoid activation functions were used, respectively (Figure 2).
+For the 1st and 2nd hidden layers Relu and for the output layer Sigmoid activation functions were used, respectively.
 
 The model was able to reach the target value by 76% of accuracy after three attempts and optimization (Figure 2).
 
