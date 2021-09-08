@@ -52,9 +52,9 @@ The CSV file we have received contains more than 34,000 organizations that have 
 
 #### Initial results without optimization
 
-Two hidden layers, with respectively 14 and 10 neurons, were used, . 
+Two hidden layers, with respectively 14 and 10 neurons, were used. 
 
-For the 1st and 2nd layers Relu and Sigmoid activation functions were used, respectively (Figure 1)
+For the 1st and 2nd hidden layers Relu and for the output layer Sigmoid activation functions were used, respectively (Figure 1)
 
 ```ruby
 
@@ -75,7 +75,11 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 
 #### Results upon three attempts and optimization 
 
-The model was able to reach the target value by 76% of accuracy rate after three attempts and optimization (Figure 2).
+Two hidden layers, with respectively 20 and 15 neurons, were used. 
+
+For the 1st and 2nd hidden layers Relu and for the output layer Sigmoid activation functions were used, respectively (Figure 2).
+
+The model was able to reach the target value by 76% of accuracy after three attempts and optimization (Figure 2).
 
 
 #### Figure 2: Results after three attempts and optimization
@@ -91,7 +95,7 @@ Initially, the model had an accuracy rate of 73% and a loss score of 55%. Upon O
 
 Given the low accuracy of the model, it could be applicable to preliminary screening of the applications. 
 
-On the improvement of the model, use of a **Random Forest Classifier** might be a good option to consider as there are a noticeable number of variables or features. Moreover, addition of more data is always a great help.
+On the improvement of the model, use of a ***Random Forest Classifier*** might be a good option to consider as there are a noticeable number of variables or features. Moreover, addition of more data is always a great help.
 
 
 
