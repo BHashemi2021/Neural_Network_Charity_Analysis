@@ -29,7 +29,6 @@ The CSV file we have received contains more than 34,000 organizations that have 
  
 ## Results
 
-<span style="background-color: #FFFF00">Results</span>
 
 ### Data Preprocessing
 * What variable(s) are considered the target(s) for your model?
