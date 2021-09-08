@@ -50,7 +50,7 @@ The CSV file we have received contains more than 34,000 organizations that have 
     The number of neurons and layers, especially  hidden layers, could increase the efficiency to certain extents and beyond a certain point they       would not add too much value. Accordingly, a low to moderate number of neurons were considered for the model to reduce superfluous computational processing and time (Please see below).
 
 
-#### Initial results without optimization
+#### ***Initial results without optimization***
 
 Two hidden layers, with respectively 14 and 10 neurons, were used. 
 
@@ -73,7 +73,7 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 
 
 
-#### Results upon three attempts and optimization 
+#### ***Results upon three attempts and optimization*** 
 
 Two hidden layers, with respectively 20 and 15 neurons, were used. 
 
