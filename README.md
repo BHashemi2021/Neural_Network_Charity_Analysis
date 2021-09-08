@@ -31,19 +31,22 @@ The CSV file we have received contains more than 34,000 organizations that have 
 
 ### Data Preprocessing
 * What variable(s) are considered the target(s) for your model?
-The "IS_SUCCESSFUL" is the target or dependent variable which we will use to train the model.
+
+    The "IS_SUCCESSFUL" is the target or dependent variable which we will use to train the model.
 
 * What variable(s) are considered to be the features for your model?
-The independent variables, all the variables except the target variable, are considered the feature variables. We may remove variables like EIN and NAME that are Identification columns and are not involved in the model.
+
+    The independent variables, all the variables except the target variable, are considered the feature variables. We may remove variables like EIN     and NAME that are Identification columns and are not involved in the model.
 
 * What variable(s) are neither targets nor features, and should be removed from the input data?
-Variables that did not classify as features or target (EIN and NAME) were removed. Moreover, variables with unique values and outliers were also taken care of (bucketing).
+
+    Variables that did not classify as features or target (EIN and NAME) were removed. Moreover, variables with unique values and outliers were also    taken care of (bucketing).
 
 ### Compiling, Training, and Evaluating the Model
+
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-The number of neurons and layers, especially  hidden layers, could increase the efficiency to certain extents and beyond a certain point they would not add too much value. Accordingly, a low to moderate number of neurons were considered for the model to reduce superfluous computational processing and time (Please see below).
-
+    The number of neurons and layers, especially  hidden layers, could increase the efficiency to certain extents and beyond a certain point they       would not add too much value. Accordingly, a low to moderate number of neurons were considered for the model to reduce superfluous computational        processing and time (Please see below).
 
 
 #### Initial results without optimization
@@ -70,6 +73,7 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 
 
 #### Results upon three attempts and optimization 
+
 Loss: 0.48012784123420715, Accuracy: 0.7636151313781738
 
 The model was able to reach the target value by 76% of accuracy rate after three attempts and optimization (Figure 2).
