@@ -27,7 +27,7 @@ The CSV file we have received contains more than 34,000 organizations that have 
     ASK_AMT—Funding amount requested
     IS_SUCCESSFUL—Was the money used effectively
  
-## Results(text: string, words: string[]): string; 
+## Results
 
 ### Data Preprocessing
 * What variable(s) are considered the target(s) for your model?
