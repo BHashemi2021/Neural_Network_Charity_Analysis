@@ -56,8 +56,9 @@ Two hidden layers, with respectively 14 and 10 neurons, were used.
 
 For the 1st and 2nd hidden layers Relu and for the output layer Sigmoid activation functions were used, respectively.
 
-The model rendered an accuracy rate of about 73% (Figure 1).
+The model rendered an accuracy rate of about 73% and a loss of 55 (Figure 1).
 
+Loss is the quantitative measure of deviation or difference between the predicted output and the actual output in anticipation. It gives us the measure of mistakes made by the network in predicting the output (1).
 
 ```ruby
 
@@ -101,4 +102,15 @@ Given the low accuracy of the model, it could be applicable to preliminary scree
 On the improvement of the model, use of a ***Random Forest Classifier*** might be a good option to consider as there are a noticeable number of variables or features. Moreover, addition of more data is always a great help.
 
 
+### Ressources
+
+     1- Microsoft CSV files
+     2- Google Colab
+     3- VS Code Editor (64-1.58.2)
+     4- Python 3.9 (64-bit) 
+
+
+### References
+
+1- Quora: What does "loss" mean in deep neural networks?, 2018. Retrieved from https://www.quora.com/What-does-loss-mean-in-deep-neural-networks
 
