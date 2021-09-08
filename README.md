@@ -90,9 +90,9 @@ The model was able to reach the target value by 76% of accuracy rate after three
 
 Initially, the model had an accuracy rate of 73% and a loss score of 55%. Upon Optimization the model's accuracy rate improved to 76% and met the target value and the loss decreased to 48%. 
 
-Given the low accuracy of the model, it could be for preliminary screening of the applicants. 
+Given the low accuracy of the model, it could be applicable to preliminary screening of the applications. 
 
-On the improvement of the model, use of a *Random Forest Classifier* might be a good option to consider as there are a noticeable number of variables or features. Moreover, addition of more data is always a great help.
+On the improvement of the model, use of a **Random Forest Classifier** might be a good option to consider as there are a noticeable number of variables or features. Moreover, addition of more data is always a great help.
 
 
 
