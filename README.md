@@ -2,7 +2,7 @@
 # Neural Network Charity Analysis
 
 ## Overview of the analysis
-**Alphabet Soup* is a philanthropic organization dedicated to helping organizations that protect the environment and people's well-being and unify the world.
+**Alphabet Soup** is a philanthropic organization dedicated to helping organizations that protect the environment and people's well-being and unify the world.
 
 Alphabet Soup has raised and donated over $10 billion in the past twenty years. This money has been used to invest in life-saving technologies and to organizations active in re-forestation around the world. Each donation needs to be assessed for its impact and the recipient need to be vetted by  organization's data analyst. This makes sure the organization's money is being used effectively. Unfortunately, not every donation is impactful. In some instances, an organization takes the money and will disappear. As a result the organization's president has asked their data analyst to predict which organizations are worth donating to and which are too high-risk. 
 
