@@ -12,7 +12,7 @@ Therefore, we have been tasked to help with the design and train the models usin
 
 In this undertaking we need to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. 
 
-## Materials and Methods
+## Methods
 The CSV file we have received contains more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
 
     EIN and NAME—Identification columns
