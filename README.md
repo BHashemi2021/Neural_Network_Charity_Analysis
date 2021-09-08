@@ -58,7 +58,7 @@ For the 1st and 2nd hidden layers Relu and for the output layer Sigmoid activati
 
 The model rendered an accuracy rate of about 73% and a loss of 55 (Figure 1).
 
-Loss is the quantitative measure of deviation or difference between the predicted output and the actual output in anticipation. It gives us the measure of mistakes made by the network in predicting the output (1).
+***Loss*** is the quantitative measure of deviation or difference between the predicted output and the actual output in anticipation. It gives us the measure of mistakes made by the network in predicting the output (1).
 
 ```ruby
 
