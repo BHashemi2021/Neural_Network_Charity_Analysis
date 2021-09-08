@@ -74,8 +74,6 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 
 #### Results upon three attempts and optimization 
 
-Loss: 0.48012784123420715, Accuracy: 0.7636151313781738
-
 The model was able to reach the target value by 76% of accuracy rate after three attempts and optimization (Figure 2).
 
 
