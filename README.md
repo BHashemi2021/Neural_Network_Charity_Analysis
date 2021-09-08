@@ -2,7 +2,7 @@
 # Neural Network Charity Analysis
 
 ## Overview of the analysis
-**Alphabet Soup** is a philanthropic organization dedicated to helping organizations that protect the environment and people's well-being and unify the world.
+***Alphabet Soup*** is a philanthropic organization dedicated to helping organizations that protect the environment and people's well-being and unify the world.
 
 Alphabet Soup has raised and donated over $10 billion in the past twenty years. This money has been used to invest in life-saving technologies and to organizations active in re-forestation around the world. Each donation needs to be assessed for its impact and the recipient need to be vetted by  organization's data analyst. This makes sure the organization's money is being used effectively. Unfortunately, not every donation is impactful. In some instances, an organization takes the money and will disappear. As a result the organization's president has asked their data analyst to predict which organizations are worth donating to and which are too high-risk. 
 
@@ -46,7 +46,7 @@ The CSV file we have received contains more than 34,000 organizations that have 
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-    The number of neurons and layers, especially  hidden layers, could increase the efficiency to certain extents and beyond a certain point they       would not add too much value. Accordingly, a low to moderate number of neurons were considered for the model to reduce superfluous computational        processing and time (Please see below).
+    The number of neurons and layers, especially  hidden layers, could increase the efficiency to certain extents and beyond a certain point they       would not add too much value. Accordingly, a low to moderate number of neurons were considered for the model to reduce superfluous computational processing and time (Please see below).
 
 
 #### Initial results without optimization
